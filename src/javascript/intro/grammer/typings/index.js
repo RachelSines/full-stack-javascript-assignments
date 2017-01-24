@@ -1,20 +1,24 @@
-export default {
-  isTrue: true,
-  isFalse: false,
-  email: 'tjgarlick@gmail.com',
-  age: 35,
-  phone: '8012012200',
-  favoriteFoods: ['Apple', 'Banana', 'Potato'],
-  name: {
-    first: 'Tyler',
-    last: 'Garlick'
-  },
-  notDefined: undefined,
-  nullable: null,
-  greet() {
-    return 'Hello';
-  },
-  emptyString: '',
-  zero: 0,
-  one: 1
-};
+const age = 34;
+const hard = "this is hard";
+let rachel = {
+  gender:'female',
+  job:'bartender'
+}
+
+const jobs = ["bartender","coder", "academic advisor"];
+var foo = null;
+
+
+
+
+
+
+
+
+
+console.log(typeof(age));
+console.log(typeof(hard));
+console.log(typeof(rachel.gender === 'female'));
+console.log(typeof(jobs));
+console.log(foo);
+console.log(typeof(Patrick));
